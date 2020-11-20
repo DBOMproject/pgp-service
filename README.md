@@ -1,64 +1,47 @@
-#### DBoM Open Source Project Template Instructions
+# PGP Service
+Offers up APIs to sign and verify data using PGP keys
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-1. Create a new project based on this template
-3. Update the README, replacing the contents below as prescribed
-3. Delete these instructions and everything up to the _Project Title_ from the README.
+- [How to Use](#how-to-use)
+  - [API](#api)
+  - [Configuration](#configuration)
+- [Helm Deployment](#helm-deployment)
+- [Helm Deployment](#helm-deployment)
+- [Getting Help](#getting-help)
+- [Getting Involved](#getting-involved)
 
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## How to Use
 
-# Project Title
+### API
 
-**Description**:  
+Latest OpenAPI Specification for this API is available in the [api-specs repository](https://github.com/DBOMproject/api-specs/tree/master/pgp-service)
 
-Put a meaningful, short, plain-language description of what
-this project is trying to accomplish and why it matters.
-Describe the problem(s) this project solves.
-Describe how this software can improve the lives of its audience.
+### Configuration
 
-Other things to include:
+| Environment Variable | Default                    | Description                                   |
+|----------------------|----------------------------|-----------------------------------------------|
+| HKP_ADDRESS          | http://keyserver.pks:11371 | Address of the hkp server to upload to key to |
+| PGP_KEY_ID_EMAIL     | example@example.com        | The email to attach to the key                |
+| PGP_KEY_ID_NAME      | Example                    | The name to attach to the key                 |
+| PGP_SECRET           | pgp-key                    | name of secret to create                      |
+| PGP_KEY_PATH         | /keys                      | path to the keys directory                    |
+| PGP_KEY_TYPE         | ed25519                    | The type of pgp key to create                 |
+| PGP_NAMESPACE        | default                    | Namespace where the secret is created         |
 
-  - Link to the changelog
-  - Links to production or demo instances
+## Helm Deployment
 
-**Screenshot**
+Instructions for deploying the database-agent using helm charts can be found [here](https://github.com/DBOMproject/deployments/tree/master/charts/pgp-service/README.md)
 
- If the software has visual components, place a screenshot after the description
+## Getting Help
 
+If you have any queries on iota-agent, feel free to reach us on any of our [communication channels](https://github.com/DBOMproject/community/blob/master/COMMUNICATION.md) 
 
-## Installation
+If you have questions, concerns, bug reports, etc, please file an issue in this repository's [issue tracker](https://github.com/DBOMproject/iota-agent/issues).
 
-Detailed instructions on how to install, configure, and get the project running.
-This should be frequently tested to ensure reliability. 
+## Getting Involved
 
-## Configuration
-
-If the software is configurable, describe it in detail, either here or in other documentation to which you link.
-
-## Usage
-
-Show users how to use the software.
-Be specific.
-Use appropriate formatting when showing code snippets.
-
-## How to test the software
-
-If the software includes automated tests, detail how to run those tests.
-
-
-## Getting help
-
-If you have any queries on insert-project-name, feel free to reach us on any of our [communication channels](https://github.com/DBOMproject/community/blob/master/COMMUNICATION.md) 
-
-**Example**
-
-If you have questions, concerns, bug reports, etc, please file an issue in this repository's Issue Tracker.
-
-## Getting involved
-
-This section should detail why people should get involved and describe key areas you are
-currently focusing on; e.g., trying to get feedback on features, fixing certain bugs, building
-important pieces, etc.
-
-General instructions on _how_ to contribute should be stated with a link to [CONTRIBUTING](CONTRIBUTING.md).
-
-
+Find the instructions on how you can contribute in [CONTRIBUTING](CONTRIBUTING.md).

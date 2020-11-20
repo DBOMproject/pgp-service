@@ -1,0 +1,39 @@
+{
+  "name": "gpg-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "./node_modules/.bin/nyc ./node_modules/.bin/mocha --timeout=1200000 --exit && npx nyc report --reporter=html",
+    "test-jenkins": "./node_modules/.bin/cross-env JUNIT_REPORT_PATH=./report.xml ./node_modules/.bin/nyc ./node_modules/.bin/mocha --colors --reporter mocha-jenkins-reporter --timeout=1200000 --exit && npx nyc report --reporter=html",
+    "generate-docs": "./node_modules/.bin/jsdoc -c ./docs/jsdoc.json"
+  },
+  "dependencies": {
+    "alphabetize-object-keys": "^3.0.0",
+    "async": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-winston": "^4.0.3",
+    "fs.promises": "^0.1.2",
+    "openpgp": "^4.10.4",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cross-env": "^7.0.2",
+    "decache": "^4.6.0",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jsdoc": "^3.6.5",
+    "minami": "^1.2.3",
+    "mocha": "^8.1.2",
+    "mocha-jenkins-reporter": "^0.4.5",
+    "mocha-prepare": "^0.1.0",
+    "mocha-prepare-promise": "0.0.2",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.3"
+  }
+}

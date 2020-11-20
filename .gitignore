@@ -1,0 +1,8 @@
+.idea
+node_modules
+temp
+src/coverage
+src/.nyc_output
+src/docs/gen
+logfile.log
+src/report.xml

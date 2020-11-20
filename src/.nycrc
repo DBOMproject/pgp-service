@@ -1,0 +1,10 @@
+{
+  "all": true,
+  "exclude": [
+    "coverage/**",
+    "logger.js",
+    "test/**",
+    "docs/**"
+  ],
+  "ignore-class-method": ["getPublicKey"]
+}

@@ -1,0 +1,25 @@
+{
+  "source": {
+      "include": [
+          "../README.md",
+          "app.js",
+          "logger.js",
+          "controller/pgp.js",
+          "routes/index.js",
+          "routes/pgp.js"
+      ]
+  },
+  "opts": {
+      "destination": "docs/gen",
+      "recurse": true,
+      "pedantic": true,
+      "template": "./node_modules/minami"
+  },
+  "templates": {
+      "systemName": "Service for signing and validating data with pgp keys",
+      "theme": "cosmo"
+  },
+  "tags": {
+      "allowUnknownTags": false
+  }
+}
