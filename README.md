@@ -34,13 +34,13 @@ Latest OpenAPI Specification for this API is available in the [api-specs reposit
 
 ## Helm Deployment
 
-Instructions for deploying the database-agent using helm charts can be found [here](https://github.com/DBOMproject/deployments/tree/master/charts/pgp-service/README.md)
+Instructions for deploying the pgp-service using helm charts can be found [here](https://github.com/DBOMproject/deployments/tree/master/charts/pgp-service/README.md)
 
 ## Getting Help
 
-If you have any queries on iota-agent, feel free to reach us on any of our [communication channels](https://github.com/DBOMproject/community/blob/master/COMMUNICATION.md) 
+If you have any queries on pgp-service, feel free to reach us on any of our [communication channels](https://github.com/DBOMproject/community/blob/master/COMMUNICATION.md) 
 
-If you have questions, concerns, bug reports, etc, please file an issue in this repository's [issue tracker](https://github.com/DBOMproject/iota-agent/issues).
+If you have questions, concerns, bug reports, etc, please file an issue in this repository's [issue tracker](https://github.com/DBOMproject/pgp-service/issues).
 
 ## Getting Involved
 
