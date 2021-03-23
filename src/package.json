@@ -14,7 +14,7 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "express-winston": "^4.0.3",
+    "express-winston": "^4.1.0",
     "fs.promises": "^0.1.2",
     "openpgp": "^4.10.4",
     "winston": "^3.3.3"
