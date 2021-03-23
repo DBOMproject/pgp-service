@@ -14,7 +14,7 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "express-winston": "^4.0.3",
+    "express-winston": "^4.1.0",
     "fs.promises": "^0.1.2",
     "openpgp": "^4.10.4",
     "winston": "^3.3.3"
@@ -29,7 +29,7 @@
     "eslint-plugin-import": "^2.22.0",
     "jsdoc": "^3.6.5",
     "minami": "^1.2.3",
-    "mocha": "^8.1.2",
+    "mocha": "^8.3.2",
     "mocha-jenkins-reporter": "^0.4.5",
     "mocha-prepare": "^0.1.0",
     "mocha-prepare-promise": "0.0.2",
