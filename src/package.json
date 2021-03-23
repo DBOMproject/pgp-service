@@ -12,7 +12,7 @@
     "alphabetize-object-keys": "^3.0.0",
     "async": "^3.2.0",
     "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
+    "debug": "~4.3.1",
     "express": "~4.16.1",
     "express-winston": "^4.1.0",
     "fs.promises": "^0.1.2",
