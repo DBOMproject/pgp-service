@@ -14,13 +14,13 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "express-winston": "^4.0.3",
+    "express-winston": "^4.1.0",
     "fs.promises": "^0.1.2",
     "openpgp": "^4.10.4",
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
+    "chai": "^4.3.4",
     "chai-http": "^4.3.0",
     "cross-env": "^7.0.2",
     "decache": "^4.6.0",
