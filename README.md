@@ -9,6 +9,7 @@ Offers up APIs to sign and verify data using PGP keys
   - [Configuration](#configuration)
 - [Helm Deployment](#helm-deployment)
 - [Helm Deployment](#helm-deployment)
+- [Platform Support](#platform-support)
 - [Getting Help](#getting-help)
 - [Getting Involved](#getting-involved)
 
@@ -35,6 +36,10 @@ Latest OpenAPI Specification for this API is available in the [api-specs reposit
 ## Helm Deployment
 
 Instructions for deploying the pgp-service using helm charts can be found [here](https://github.com/DBOMproject/deployments/tree/master/charts/pgp-service/README.md)
+
+## Platform Support
+
+Currently, we provide pre-built container images for linux amd64 and arm64 architectures via our Github Actions Pipeline. Find the images [here](https://hub.docker.com/r/dbomproject/pgp-service)
 
 ## Getting Help
 
