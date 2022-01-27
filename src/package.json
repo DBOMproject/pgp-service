@@ -18,7 +18,7 @@
     "express-winston": "^4.2.0",
     "fs.promises": "^0.1.2",
     "openpgp": "^4.10.10",
-    "winston": "^3.3.3"
+    "winston": "^3.5.0"
   },
   "devDependencies": {
     "chai": "^4.3.4",
