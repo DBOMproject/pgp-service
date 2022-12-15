@@ -14,7 +14,7 @@
     "async": "^3.2.3",
     "cookie-parser": "~1.4.4",
     "debug": "~4.3.3",
-    "express": "~4.17.2",
+    "express": "~4.18.2",
     "express-winston": "^4.2.0",
     "fs.promises": "^0.1.2",
     "openpgp": "^4.10.10",
